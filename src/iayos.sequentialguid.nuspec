@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>iayos.sequentialguid</id>
+		<version>$version$</version>
+		<authors>dale.holborow</authors>
+		<owners>dale.holborow</owners>
+		<projectUrl>https://github.com/daleholborow/iayos.sequentialguid</projectUrl>
+		<licenseUrl>https://github.com/daleholborow/iayos.sequentialguid/blob/master/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<description>
+			Took the code from https://www.codeproject.com/Articles/388157/GUIDs-as-fast-primary-keys-under-multiple-database and
+			made myself a reusable nuget to be able to make db-specific sequential guids.
+		</description>
+		<releaseNotes>
+			All credit to the original sequentialguid author - I just want a reusable lib so nugetted it.
+		</releaseNotes>
+		<copyright>Copyright © 2017</copyright>
+		<summary>
+			Make sequentialguids based on the type of DB that you'll be using, so that they don't wang the db performance.
+			Adapted from https://www.codeproject.com/Articles/388157/GUIDs-as-fast-primary-keys-under-multiple-database
+		</summary>
+		<tags>sequential guid C# in-a-year-or-so</tags>
+		<title>iayos.sequentialguid</title>
+		<dependencies>
+		</dependencies>
+	</metadata>
+</package>
